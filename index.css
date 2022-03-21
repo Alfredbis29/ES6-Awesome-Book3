@@ -62,7 +62,6 @@ body {
 }
 
 .remove-btn {
-
   background: black;
   margin-right: 5px;
   width: 100px;
@@ -140,7 +139,6 @@ header {
   position: fixed;
   bottom: 0;
   height: 30px;
-
 }
 
 #copyright p {
