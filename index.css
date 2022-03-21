@@ -74,17 +74,16 @@ body {
 #bookName,
 #bookAuthor {
   border: 4px solid crimson;
-  border-radius: 14px;
   width: 100%;
-  height: 30px;
+  height: 50px;
 }
 
 .add-btn {
   border: 1px solid crimson;
   background: black;
   color: white;
-  border-radius: 10px;
-  height: 30px;
+  border-radius: 5px;
+  height: 40px;
   width: 100px;
   align-self: flex-end;
   text-align: center;
