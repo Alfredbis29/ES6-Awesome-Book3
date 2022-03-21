@@ -119,10 +119,6 @@ header {
   cursor: pointer;
 }
 
-/* .navItems *:hover {
-  color: #ed550e;
-} */
-
 .contact-section {
   display: flex;
   flex-direction: column;
