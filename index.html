@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Awesome Books</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <h1>Awesome Books</h1>
+      <ul class="navItems">
+        <li id="list"><a>List</a></li>
+        <li id="add-books"><a>Add new</a></li>
+        <li id="contact-section"><a>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div>
+    <p id="date"></p>
+  </div>
+
+
+  <section class="books-container">
+    <div>
+      <h1 class="books-heading">All Awesome Books</h1>
+    </div>
+    <div class="books-list">
+
+    </div>
+  </section>
+
+  <form class="add-books hide">
+    <h2 class="form-heading">Add a new book</h2>
+    <input type="text" id="bookName" placeholder="Title" />
+    <input type="text" id="bookAuthor" placeholder="Author" />
+    <button class="add-btn" type="submit">Add</button>
+  </form>
+
+  <section id="contact" class="contact-section hide">
+    <h2>Contact Information</h2>
+    <p>
+      Do you have any questions or you just want to say "Hello"?, <br>
+      you can reach out to us!
+    </p>
+    <ul class="contact-list">
+      <li>Our email: jimohridwanlekan@email.com, oustanilokman@gmail.com</li>
+      <li>Our phone number: 0000000000</li>
+      <li>Our address: Microverse 2.0 City, USA</li>
+    </ul>
+  </section>
+
+  <footer id="copyright">
+    <p>2022</p>
+  </footer>
+
+  <script type="module" src="index.js"></script>
+  <script src="https://moment.github.io/luxon/global/luxon.js"></script>
+</body>
+
+</html>
