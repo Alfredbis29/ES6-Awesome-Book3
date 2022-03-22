@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: crimson;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 130px;
+}
+
+.add-books {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 40%;
+}
+
+.books-list {
+  border: 3px solid crimson;
+  border-radius: 16px;
+  padding: 15px;
+  width: 97%;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.list-container p {
+  padding-left: 15px;
+}
+
+.list-container:nth-child(odd) {
+  background: #fff;
+  color: black;
+}
+
+.list-container:nth-child(even) {
+  background: rgba(114, 111, 111, 0.514);
+}
+
+.remove-btn {
+  background: black;
+  margin-right: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+#bookName,
+#bookAuthor {
+  border: 4px solid crimson;
+  width: 100%;
+  height: 50px;
+}
+
+.add-btn {
+  border: 1px solid crimson;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  align-self: flex-end;
+  text-align: center;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid black;
+  background-color: rgb(14, 13, 13);
+  width: 100%;
+}
+
+.navItems {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 130px;
+}
+
+.contact-list {
+  align-self: center;
+}
+
+#copyright {
+  border: 2px solid red;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+}
+
+#copyright p {
+  margin-left: 65px;
+}
+
+#date {
+  position: fixed;
+  color: #ececec;
+  margin: 120px 20px 0 0;
+  font-size: 0.9rem;
+  right: 0%;
+}
+
+.hide {
+  display: none;
+}
